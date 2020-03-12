@@ -10,6 +10,9 @@ exports.seed = function(knex) {
             id: 1,
             email: "ijd.irving@gmail.com",
             password: "password",
+            company_name: "Duran Irving Co.",
+            company_logo:
+            "https://www.duranirving.com/static/media/cartoon.72f7f183.jpg",
             admin: 1
           },
           {
@@ -27,6 +30,18 @@ exports.seed = function(knex) {
           {
             id: 3,
             email: "ijd.irving2@gmail.com",
+            password: "password",
+            admin: 0,
+            company_logo:
+              "https://www.duranirving.com/static/media/cartoon.72f7f183.jpg",
+            company_website: "duranirving.com",
+            company_name: "Fixmylife Designs",
+            company_number: "+13472655234",
+            company_location: "New York"
+          },
+          {
+            id: 4,
+            email: "ijd.irving22@gmail.com",
             password: "password",
             admin: 0,
             company_logo:
